@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .topic-title{
+                font-weight: bold;
+
+            }
+            .box{
+                border: 1px solid black;
+            }
+
+            .block{
+                margin: 7px 10px;
+                background-color: #000000;
+                padding: 7px;
+                color: white;
+            }
+
+            .inline{
+                display: inline;
+                margin: 10px 3px;
+                background-color: #FF4191;
+                padding: 7px;
+                color: white;
+            }
+
+            .container{
+                display: flex;
+                width: 100%;
+            }
+            .item{
+                padding: 7px;
+                margin: 10px 3px;
+            }
+
+            .grow-1{
+                background-color: #E90074;
+                flex-grow: 2;
+                color: white;
+            }
+
+            .grow-2{
+                background-color: #E90074;
+                flex-grow: 2;
+                color: white;
+            }
+
+            .grow-3{
+                background-color: #FF9EAA;
+                flex-grow: 4;
+                color: white;
+            }
+
+            .shrink-1{
+                background-color: #3FA2F6;
+                flex-shrink: 2;
+                width: 300px;
+            }
+
+            .shrink-2{
+                background-color: #96C9F4;
+                flex-shrink: 2;
+                width: 300px;
+            }
+
+            .shrink-3{
+                background-color: #FFF078;
+                flex-shrink: 4;
+                width: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2> Exercise about Property display </h2>
+        <p class="topic-title "> Your most frequently used apps </p>
+
+        <div class="box">
+            <p class="block"> Instagram </p>
+            <p class="block"> Tik Tok </p>
+            <p class="block"> Webtoon </p>
+        </div>
+
+        <p class="topic-title "> Places you want to visit in Thailand </p>
+
+        <div class="box">
+            <p>
+                <span class="inline"> Chiangmai </span>
+                <span class="inline"> Lampang </span>
+                <span class="inline"> Surat thani </span>
+            </p>
+        </div>
+
+        <p class="topic-title "> Countries you want to visit </p>
+        <div class="box">
+            <div class="container">
+                <div class="item grow-1"> Japan </div>
+                <div class="item grow-2"> Switzerland </div>
+                <div class="item grow-3"> Mexico </div>
+            </div>
+        </div>
+
+        <p class="topic-title "> Activities you want to do </p>
+        <div class="box">
+            <div class="container">
+                <div class="item shrink-1"> Listen to music </div>
+                <div class="item shrink-2"> Reading </div>
+                <div class="item shrink-3"> Running </div>
+            </div>
+        </div>
+
+    </body>
+</html>
