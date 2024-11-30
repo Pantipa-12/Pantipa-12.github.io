@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: white;
+    font-family: Playfair, Display;
+    overflow-x:hidden;
+}
+
+#hero {
+    margin-top: 64px;
+    width: full;
+    height: max-content;
+    background-color: black;
+    overflow: hidden;
+}
+
+.npButton {
+    background-color: gray;
+    opacity: 70%;
+    width:auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.npButton:hover{
+    background-color:white;
+}
+
+
+.carousel {
+    width: 58.333333%;
+    height: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+}
+
+.imgEx {
+    border-radius: 24px;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.paragp {
+    width: 75%;
+    text-wrap: balance;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projectLayout {
+    width:auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 64px ;
+    padding-right: 64px;
+    text: center;
+}
+
+.demo {
+    width: auto;
+    height: auto;
+    text-wrap: balance;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 64px ;
+    padding-right: 64px ;
+    text-align: center;
+}
+
+.projectName {
+    font-size: 30px ;
+    line-height: 36px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-line: underline;
+}
+
+.interestName {
+    font-weight: 600;
+    font-size: 24px ;
+    line-height: 32px;
+}
+
+.interestCard {
+    padding: 20px ;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+    width: 66.666667%;
+    height: auto;
+    border-radius: 8px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
