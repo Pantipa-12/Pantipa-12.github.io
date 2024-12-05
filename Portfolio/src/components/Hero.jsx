@@ -23,7 +23,7 @@ const Hero = () => {
           My name is PANTIPA DECHPATHUM, currently in my 3rd years of Computer
           Engineering of Khon Kaen University. <br />
           I'm looking for a summer internship that can started from 1st April 
-          and ended before 8 June
+          and ended before 8th June
           2025.
         </p>
       </div>
