@@ -22,7 +22,8 @@ const Hero = () => {
         <p id='myself' className="text-xl mt-36">
           My name is PANTIPA DECHPATHUM, currently in my 3rd years of Computer
           Engineering of Khon Kaen University. <br />
-          I'm looking for a summer internship for 2 month, 21 April to 8 June
+          I'm looking for a summer internship that can started from 1st April 
+          and ended before 8 June
           2025.
         </p>
       </div>
